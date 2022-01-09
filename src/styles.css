@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  --body-font: "Poppins", sans-serif;
+  --heading: 24px;
+  --sub-heading: 20px;
+  --sub-sub-heading: 18px;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --base-color: #475569;
+  --button-color: rgb(55 48 163);
+  --border-light: #eaeaec;
+}
+body {
+  margin-top: 10px;
+}
+
+.delivery-box {
+  border: 1px solid var(--border-light);
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.input-pincode-box {
+  border: 1px solid var(--border-light);
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.delivery-condition-box {
+  border: 1px solid var(--border-light);
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.del-heading {
+  font-size: var(--sub-heading);
+  font-weight: 500;
+}
+
+.dl-pin-input {
+  padding: 0.4rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+}
+.dl-check-btn {
+  padding: 0.4rem 1rem;
+  background-color: var(--button-color);
+  color: #d4d5d9;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.4rem;
+}
+.dl-btn {
+  margin: 0 0 0 1rem;
+}
+.del-tag {
+  font-size: 13px;
+  margin: 1rem 0 0 0;
+  color: var(--base-color);
+}
+.dl-conditions {
+  color: var(--base-color);
+}
